@@ -1,10 +1,10 @@
 import express from 'express';
-import dataRoutes from './src/routes/data'
+import numRoutes from './src/routes/num'
 const app = express();
 app.use(express.json());
 
 
-app.use('/data', dataRoutes); //Tarea
+app.use('/num', numRoutes); //Tarea
 
 
 const PORT = process.env.PORT || 3001;

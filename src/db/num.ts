@@ -1,4 +1,4 @@
-class DataService{
+class NumService{
 
     private lados: number[] = [20, 3]; //Para calculo de area de cuadrado
     private radio: number[] = [34]; //Para calculo de area de circulo
@@ -18,4 +18,4 @@ class DataService{
      
 }
     
-export const dataService = new DataService;
+export const numService = new NumService;
